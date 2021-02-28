@@ -56,15 +56,39 @@
 		E40CE4B4258E820200D5761C /* Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				E47AF3CA25EBF65200BA88B4 /* Controller */,
+				E47AF3C925EBF63D00BA88B4 /* Supporting Files */,
+				E47AF3CB25EBF66600BA88B4 /* View */,
+			);
+			path = Calculator;
+			sourceTree = "<group>";
+		};
+		E47AF3C925EBF63D00BA88B4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
 				E40CE4B5258E820200D5761C /* AppDelegate.swift */,
 				E40CE4B7258E820200D5761C /* SceneDelegate.swift */,
-				E40CE4B9258E820200D5761C /* ViewController.swift */,
-				E40CE4BB258E820200D5761C /* Main.storyboard */,
 				E40CE4BE258E820300D5761C /* Assets.xcassets */,
 				E40CE4C0258E820300D5761C /* LaunchScreen.storyboard */,
 				E40CE4C3258E820300D5761C /* Info.plist */,
 			);
-			path = Calculator;
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E47AF3CA25EBF65200BA88B4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E40CE4B9258E820200D5761C /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E47AF3CB25EBF66600BA88B4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E40CE4BB258E820200D5761C /* Main.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
